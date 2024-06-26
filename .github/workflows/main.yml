@@ -1,0 +1,69 @@
+name: Build and Deploy Backend App
+
+on:
+  workflow_dispatch: # Este evento permite ejecutar la acción manualmente desde la interfaz de GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2 # Esta acción realiza el checkout del repositorio en la máquina virtual
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20" # Se ajusta la versión de Node.js según sea necesario
+
+      - name: Install dependencies for frontend
+        run: npm install
+        working-directory: frontend # Cambia al directorio "frontend" para instalar las dependencias
+
+      - name: Install dependencies for backend
+        run: npm install
+        working-directory: backend # Cambia al directorio "backend" para instalar las dependencias
+
+      - name: Build Backend App
+        run: npm run build:app
+        working-directory: backend # Cambia al directorio "backend" para ejecutar el comando npm run build:app
+
+      - name: Login to Heroku
+        uses: akhileshns/heroku-deploy@v3.12.12 # This action deploys the content on Heroku
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ vars.HEROKU_APP_NAME }}
+          heroku_email: ${{ vars.HEROKU_EMAIL }}
+          justlogin: true
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "${{ vars.HEROKU_EMAIL }}"
+          git config --global user.name "${{ vars.USER_NAME }}"
+
+      - name: Set Heroku remote
+        run: |
+          echo "variable from shell environment : $env_var"
+          heroku git:remote -a ${{ vars.HEROKU_APP_NAME }}
+
+      - name: Set Heroku buildpacks
+        run: |
+          heroku buildpacks:clear
+          heroku buildpacks:set https://github.com/timanovsky/subdir-heroku-buildpack
+          heroku buildpacks:add heroku/nodejs
+
+      - name: Set Heroku config variables
+        run: |
+          heroku config:set PROJECT_PATH=backend
+
+      - name: Push changes to Heroku
+        run: |
+          cd backend
+          git add -f build
+          git diff-index --quiet HEAD || git commit -m "Committing changes before pulling from Heroku"
+          git push heroku HEAD:main --force
