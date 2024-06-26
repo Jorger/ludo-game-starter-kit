@@ -45,7 +45,7 @@ const Game = ({
   users = [],
   typeGame = ETypeGame.OFFLINE,
   boardColor = EBoardColors.RGYB,
-  debug = false,
+  debug = true,
 }: GameProps) => {
   /**
    * Estado que guarda la información de los jugadores, (setPlayers)...

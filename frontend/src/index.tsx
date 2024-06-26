@@ -34,6 +34,12 @@ console.log(
 
     🔥 ¡No pierdas la oportunidad de convertirte en un desarrollador de juegos con esta experiencia práctica y educativa!
     👉 ¡Compra el curso ahora en Udemy y empieza tu viaje hacia la creación de juegos en tiempo real!
+
+    ❗ Modo Debug Activado por Defecto:
+    En este starter-kit del juego, el modo debug está habilitado por defecto. Esto te permite simular el lanzamiento de dados y el movimiento de los tokens. Si deseas desactivarlo, establece el prop debug a false en el componente <Game />.
+
+    ✅ Código Disponible Hasta el Vídeo 39:
+    Este starter-kit contiene el código desarrollado hasta el vídeo 39 del curso en Udemy. A partir del vídeo 40, podrás encontrar la implementación completa del juego, que podrás descargar y seguir desarrollando según tu aprendizaje en el curso.
     `,
   style
 );
