@@ -8,7 +8,7 @@
 
 Puedes jugar el juego terminado en la siguiente url: **https://ludo-react-55c191a7043c.herokuapp.com/**, en el [curso](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio) aprenderás a como depslegar este juego a [heroku](https://heroku.com/) haciendo uso de [github actions](https://github.com/Jorger/ludo-game-starter-kit/blob/main/.github/workflows/main.yml).
 
-## 🎲 Ludo.
+# 🎲 Ludo.
 
 El [Ludo](https://en.wikipedia.org/wiki/Ludo) tiene sus raíces en la antigua India, donde se le conocía como "Pachisi", que significa "veinticinco" en sánscrito, en referencia a las 25 casillas que componen el tablero original.
 
@@ -18,20 +18,20 @@ En Estados Unidos, por ejemplo, el juego se comercializó como "Sorry!", mientra
 
 Sin embargo, independientemente del nombre, el juego conserva su esencia original y sigue siendo uno de los juegos de mesa más populares y queridos en todo el mundo.
 
-### 💡 Objetivo del Juego
+## 💡 Objetivo del Juego
 
 El objetivo del Ludo es ser el primero en llevar todas las fichas desde el área de inicio hasta la meta, completando un recorrido circular alrededor del tablero.
 
-### 🏁 Inicio del Juego
+## 🏁 Inicio del Juego
 
 Cada jugador elige un color y coloca sus cuatro fichas en el área de inicio correspondiente a su color.
 
 
-### 🅾️ Movimiento de las Fichas.
+## 🅾️ Movimiento de las Fichas.
 
 Los jugadores lanzan un dado por turno y mueven una de sus fichas según el número que salga en el dado. Las fichas se mueven en sentido horario alrededor del tablero, comenzando desde el área de inicio.
 
-### 📖 Reglas del juego
+## 📖 Reglas del juego
 
 * Si un jugador saca un 6, tiene la opción de mover una ficha que ya está en el tablero o sacar una ficha nueva del área de inicio.
 * Si una ficha cae en una casilla ocupada por una ficha de otro jugador, la ficha que estaba en esa casilla se envía de vuelta a su área de inicio.
