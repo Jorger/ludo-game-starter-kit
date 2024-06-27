@@ -1,2 +1,5 @@
 # ludo-game-starter-kit
-Reposotorio base del Curso: Realtime Ludo Game, usando ReactJS, NodeJS y SocketIO
+
+Este es el reposotorio base del Curso: Realtime Ludo Game, usando ReactJS, NodeJS y SocketIO, que puedes encontrar en udemy.
+
+
