@@ -2,9 +2,7 @@
 
 ![caratula_ludo](https://github.com/Jorger/ludo-game-starter-kit/assets/30050/f4aed896-4a7f-4e6c-a7f3-69e681091ecb)
 
-**Este es el reposotorio base del Curso: [Realtime Ludo Game, usando ReactJS, NodeJS y SocketIO](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio), que puedes encontrar en udemy.**
-
-Este starter-kit contiene el código desarrollado hasta el vídeo 39 del curso en [Udemy](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio). A partir del vídeo 40 del curso, podrás encontrar la implementación completa del juego.
+**Este es el reposotorio base del Curso: [Realtime Ludo Game, usando ReactJS, NodeJS y SocketIO](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio), que puedes encontrar en udemy. Este starter-kit contiene el código desarrollado hasta el vídeo 39 del curso en [Udemy](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio). A partir del vídeo 40 del curso, podrás encontrar la implementación completa del juego.**
 
 # 🔗 URL del juego.
 
