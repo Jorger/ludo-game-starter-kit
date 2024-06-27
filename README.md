@@ -61,7 +61,20 @@ En esta opción es posible jugar versus otros usuarios en realtime, otras opcion
 * Podrán jugar dos o cuatros jugadores al mismo tiempo.
 * Se cuenta con un chat con el cual los jugadores se podrán comunicar.
 
+# 🛠️ Stack
 
+## ⚡ Frontend
 
+* ⚛️ ReactJS
+* 📦 TypeScript
+* 📡 react-router-dom
+* 🔌 Socket.io-client
+* 💅 CSS
 
+## ⚙️ Backend
 
+* 🔀 ExpressJS
+* 🆔 PassportJS
+* 🦦 Mongoose
+* 🛢️ Redis
+* 🔌 socket.io
