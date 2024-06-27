@@ -41,19 +41,19 @@ Los jugadores lanzan un dado por turno y mueven una de sus fichas según el núm
 * Si el usuario lleva una ficha a la meta también se le entrega la opción de lanzar de nuevo el dado.
 * Si el usuario tiene tres dados del mismo valor pierde el turno (por ejemplo si ha obtenido tres 6 consecutivos)
 
-## ⚛️ Ludo ReactJS
+# ⚛️ Ludo ReactJS
 
 En el curso Realtime Ludo Game, usando ReactJS, NodeJS y SocketIO, exploraremos cómo desarrollar el clásico juego del Ludo utilizando [ReactJS](https://react.dev/). A lo largo de las lecciones, aprenderemos a implementar las reglas del juego, gestionar el movimiento de las fichas, crear la interfaz de usuario interactiva y mucho más.
 
-### ℹ️ Modalidades de Juego
+## ℹ️ Modalidades de Juego
 
-#### 🔴 Offline
+### 🔴 Offline
 
 En la cual pueden jugar 2, 3 ó 4 jugadores en el mismo dispositivo. 
 
 Además es posible jugar contra un bot 🤖, en este caso se puede seleccionar el número de bots con los que se desea jugar, incluso es posible configurar que todos sean bots y ser sólo un espectador. 
 
-#### 🟢 Online
+### 🟢 Online
 
 En esta opción es posible jugar versus otros usuarios en realtime, otras opciones son:
 
