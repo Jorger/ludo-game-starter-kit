@@ -8,6 +8,10 @@
 
 Puedes jugar el juego terminado en la siguiente url: **https://ludo-react-55c191a7043c.herokuapp.com/**, en el [curso](https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio) aprenderás a como depslegar este juego a [heroku](https://heroku.com/) haciendo uso de [github actions](https://github.com/Jorger/ludo-game-starter-kit/blob/main/.github/workflows/main.yml).
 
+# 🎬 PlayList en Youtube.
+
+En este playlist de youtube https://www.youtube.com/playlist?list=PLKpJB-07gBk6k-BCC7lM2GfbWueaiHOhh, puedes observar un adelanto del curso.
+
 # 🎲 Ludo.
 
 El [Ludo](https://en.wikipedia.org/wiki/Ludo) tiene sus raíces en la antigua India, donde se le conocía como "Pachisi", que significa "veinticinco" en sánscrito, en referencia a las 25 casillas que componen el tablero original.
