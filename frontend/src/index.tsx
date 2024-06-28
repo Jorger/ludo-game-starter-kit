@@ -34,6 +34,7 @@ console.log(
 
     🔥 ¡No pierdas la oportunidad de convertirte en un desarrollador de juegos con esta experiencia práctica y educativa!
     👉 ¡Compra el curso ahora en Udemy y empieza tu viaje hacia la creación de juegos en tiempo real!
+    🔗 https://www.udemy.com/course/realtime-ludo-game-usando-reactjs-nodejs-y-socketio/
 
     ❗ Modo Debug Activado por Defecto:
     En este starter-kit del juego, el modo debug está habilitado por defecto. Esto te permite simular el lanzamiento de dados y el movimiento de los tokens. Si deseas desactivarlo, establece el prop debug a false en el componente <Game />.
